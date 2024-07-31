@@ -16,6 +16,7 @@ export const TopBar = (props: Props) => {
         <Categories />
         <SortPopup/>
       </Container>
+    {/*  АЛЕ */}
     </div>
   );
 };
