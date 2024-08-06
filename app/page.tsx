@@ -4,7 +4,6 @@ import {Categories, Container, Filters, SortPopup, Title} from "@/components/sha
 import {TopBar} from "@/components/shared/top-bar";
 import {ProductCard} from "@/components/shared/product-card";
 import {ProductsGroupList} from "@/components/shared/products-group-list";
-import s from '@/assets/pizza_diablo.jpg'
 
 export default function Home() {
   return (
@@ -29,103 +28,103 @@ export default function Home() {
                       id: 1,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
                       id: 2,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
                       id: 3,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
-                      id: 2,
+                      id: 4,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
-                      id: 3,
+                      id: 5,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
-                      id: 2,
+                      id: 6,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
-                      id: 3,
+                      id: 7,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     }
                   ]
                 }
                 categoryId={1} />
-                <ProductsGroupList title={'ЗАВТРАК БЛЯТЬ'} items={
+                <ProductsGroupList title={'Комбо'} items={
                   [
                     {
                       id: 1,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
                       id: 2,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
                       id: 3,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
-                      id: 2,
+                      id: 4,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
-                      id: 3,
+                      id: 5,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
-                      id: 2,
+                      id: 6,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     },
                     {
-                      id: 3,
+                      id: 7,
                       name: 'Пицца пися',
                       price: 20,
-                      imageUrl: '@/assets/pizza_diablo.jpg',
+                      imageUrl: 'https://www.figma.com/design/cYz4fOSK74EJoqHxoNr1hT/Next-Pizza?node-id=45126-671&t=KMBHHcg8PNPZr25c-4',
                       items: [{price: 440}]
                     }
                   ]
