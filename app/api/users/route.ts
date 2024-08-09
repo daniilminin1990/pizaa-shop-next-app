@@ -1,5 +1,5 @@
 import {NextRequest, NextResponse} from "next/server";
-import {prisma} from "@/prisma/prisma-client";
+import {prisma} from "../../../prisma/prisma-client";
 
 export async function GET () {
   // Не нужно делать запрос типа SQL
@@ -10,6 +10,7 @@ export async function GET () {
 
 export async function POST (request: NextRequest) {
   const body = await request.json()
+
   const user = await prisma.user.create({
     data: body
   })

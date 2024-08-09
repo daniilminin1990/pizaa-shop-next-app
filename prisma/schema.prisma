@@ -14,6 +14,7 @@ model User {
   email    String   @unique
   password String
   role     UserRole @default(USER)
+  verified DateTime
 
   cart             Cart?
   orders           Order[]
@@ -21,7 +22,6 @@ model User {
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
-  cartId    Int
 }
 
 model Category {
@@ -67,9 +67,9 @@ model ProductItem {
 model Ingredient {
   id Int @id @default(autoincrement())
 
-  name  String
-  price Int
-  image String
+  name     String
+  price    Int
+  imageUrl String
 
   products  Product[]
   cartItems CartItem[]
